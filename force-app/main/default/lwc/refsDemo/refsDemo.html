@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Refs Demo">
+        <div class="slds-var-p-around_medium">
+            <lightning-input label="Name" lwc:ref="nameref"></lightning-input> 
+            <lightning-input label="Age" type="Number" lwc:ref="ageref"></lightning-input> 
+            <lightning-button label="Submit" class="slds-var-m-top_medium" onclick={submitHandler}></lightning-button>
+        </div>
+    </lightning-card>
+</template>
